@@ -7,7 +7,7 @@ const EndTalk = () => {
     const fnSubmit = (e) => {
         //정규식으로 비교 해야하지만 다음에
 
-        //전단어가 빈값이 아니면 실행
+        //전단어가 빈값이 아니면 실행 
         if(prevValue !== ""){
             //전에 입력했던 마지막 글자와 비교
             if(value.substr(0, 1) === prevValue.substr(-1, 1)){
