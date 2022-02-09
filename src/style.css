@@ -1,0 +1,12 @@
+.wrap{
+    text-align: center;
+}
+
+.wrap > ul{
+    list-style: none;
+    padding: 0;
+}
+
+.wrap > hr{
+    margin: 2rem 0;
+}
